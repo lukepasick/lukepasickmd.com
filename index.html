@@ -49,13 +49,17 @@ font-weight: 700;
 .nav {
     background: var(--um-green);
     padding: 15px;
-    text-align: center;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+        padding: 8px 12px;
     font-weight: bold;
 }
 
@@ -70,6 +74,7 @@ font-weight: 700;
 }
 
 .card {
+    
     background: white;
     padding: 25px;
     margin-bottom: 25px;
@@ -83,16 +88,18 @@ font-weight: 700;
    transform:translateY(-2px);
    transition:.1s;
 }
+    .card ul {
+    font-size: 22px;
+}
+
+.card li {
+    margin-bottom: 8px;
+}
 
 h2 {
     color: var(--um-green);
     border-left: 6px solid var(--um-orange);
     padding-left: 12px;
-}
-  img {
-  width: 300px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .footer {
